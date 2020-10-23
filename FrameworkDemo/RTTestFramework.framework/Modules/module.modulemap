@@ -1,0 +1,11 @@
+framework module RTTestFramework {
+  umbrella header "RTTestFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RTTestFramework.Swift {
+    header "RTTestFramework-Swift.h"
+    requires objc
+}
